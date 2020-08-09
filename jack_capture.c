@@ -309,7 +309,7 @@ static int64_t seconds_to_frames(float seconds){
 }
 
 
-static float frames_to_seconds(int frames){
+static float frames_to_seconds(int64_t frames){
   return ((float)frames)/jack_samplerate;
 }
 
